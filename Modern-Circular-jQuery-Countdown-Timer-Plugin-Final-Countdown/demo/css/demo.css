@@ -1,0 +1,96 @@
+html, body {
+	height: 100%;
+}
+
+
+
+body {
+	
+	font-family: 'Raleway', 'Arial', sans-serif;
+}
+
+.countdown-container {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+	width: 55%;
+	/* display: flex; */
+
+}
+
+.clock-item .inner {
+	height: 0px;
+	padding-bottom: 100%;
+	position: relative;	
+	width: 90%;
+}
+
+.clock-canvas {
+	background-color: rgba(255, 255, 255, .1);
+	border-radius: 50%;
+	height: 0px;
+	padding-bottom: 100%;
+}
+
+.text {
+	color: black;	
+	font-size: 30px;
+	font-weight: bold;	
+	margin-top: -50px;
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+	width: 100%;
+}
+
+.text .val {
+	font-size: 50px;
+}
+
+.text .type-time {
+	font-size: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	/* .clock-item {
+		margin-bottom: 30px;		
+	} */
+	/* .text .val {
+		font-size: 30px;
+	}
+	
+	.text .type-time {
+		font-size: 15px;
+	} */
+	
+}
+
+@media (max-width: 767px) {
+	/* .countdown-container{
+		width:80%;
+	   
+	  
+	 
+	 } 
+	  */
+	
+	 
+	/* .clock-item {
+		margin: 1px 1px 0px 0px;
+	} */
+	
+	.text .val {
+		font-size: 20px;
+	}
+	
+	.text .type-time {
+		font-size: 22px;
+	}
+	
+	
+
+	
+}

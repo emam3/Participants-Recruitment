@@ -1,0 +1,317 @@
+/* head font */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+/* head section font */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.class1, .class2, .class3 {
+    background-color: #80191c;
+    border-radius: 50px;
+    width: 80%;
+    padding-bottom: 7rem;
+}
+
+.line11, .line12, .line13 {
+    width: 60px;
+    height: 15px;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+
+.line21, .line31, .line22, .line32, .line23, .line33 {
+    width: 15px;
+    height: 15px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 5px 5px;
+}
+
+.slider1, .slider2, .slider3 {
+    display: flex;
+    position: absolute;
+    left: 70%;
+    transform: rotate(90deg);
+}
+
+.myimage {
+    position: relative;
+    right: 20%;
+}
+
+.btn {
+    border-radius: 18px;
+}
+
+.header-img {
+    width: 100%;
+    height: 800px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    margin: auto;
+    color: #b61313;
+}
+
+hr {
+    display: block;
+    height: 10px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    background-color: #b61313;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.details {
+    margin: auto;
+    color: #888;
+    font-size: 24px;
+}
+
+legend.scheduler-border {
+    width: inherit;
+    /* Or auto */
+    padding: 0 20px;
+    /* To give a bit of padding on the left and right */
+    border-bottom: none;
+}
+
+.rad {
+    border-radius: 55px;
+}
+
+legend {
+    font-size: 2.5rem;
+}
+
+.my_legend {
+    font-family: 'Lato', sans-serif;
+}
+
+.border {
+    border: 1px solid #c71313 !important;
+}
+
+.p1, .h2 {
+    color: white !important
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.img-block {
+    margin-top: 10%;
+}
+
+@media (max-width:996px) {
+    .img_col {
+        position: relative;
+        left: 25%;
+    }
+    .nour {
+        margin-top: -10% !important;
+        border-radius: 20px;
+    }
+}
+
+
+/*Workshop title font*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+/* discreption font */
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&family=Krub&display=swap');
+.block {
+    margin: auto;
+    background-color: #80191c;
+    border-radius: 20px;
+    width: 80%;
+    height: auto;
+}
+
+.nour {
+    margin-left: -10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border-radius: 20px;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  
+}
+/* .my_text
+{
+    padding-right:15 ;
+} */
+
+#btn1, #btn2, #btn3 {
+    border-radius: 18px;
+}
+
+.slider1, .slider2, .slider3 {
+    display: flex;
+    /* position: absolute;  */
+    margin-bottom: 20%;
+    margin-left: 70%;
+    /* bottom: 20%;
+    left:70%; */
+    transform: rotate(90deg);
+}
+
+@media (max-width:996px) {
+    .img_col {
+        position: relative;
+        left: 25%;
+    }
+    img{
+      width:70%;
+    }
+    .nour {
+        margin-top: -10% !important;
+        border-radius: 20px;
+    }
+    .slider1, .slider2, .slider3 {
+        margin-bottom: 0%;
+        margin-left: 0%;
+        position: absolute;
+        bottom: 90%;
+        left: 40%;
+        transform: rotate(0deg);
+    }
+    #btn1, #btn2, #btn3 {
+        width: 80%;
+        position: relative;
+        left: 10%;
+        margin: 30px 0px;
+    }
+}
+
+.my_text {
+    margin-left: -16%;
+}
+
+@media (max-width:991px) {
+    .my_text {
+        margin-left: 0 !important;
+    }
+}
+
+.work_shop_title, .discreption {
+    color: white;
+}
+
+.work_shop_title {
+    font-family: 'Cairo', sans-serif;
+}
+
+.discreption {
+    font-family: 'Krub', sans-serif;
+}
+
+button {
+    transition: 0.3s;
+}
+
+button:hover {}
+
+@media (max-width:991px) {
+    .block {
+        margin-top: 80px;
+    }
+    .p1 {
+        text-align: center !important;
+        padding: 0 10px;
+    }
+    .work_shop_title {
+        text-align: center !important;
+    }
+}
+
+#btn1 {
+    width: 110%;
+    border-radius: 0 100px 0 100px;
+}
+
+@media (max-width:767px) {
+    .block {
+        width: 100%
+    }
+    /* fieldset 
+    {
+        position: relative;
+        bottom:67%;
+    } */
+    .countdown-container{
+		width:100%;
+	      
+	     top:20%;
+	 
+     } 
+     .clock-item
+     {
+         width:50%;
+     }
+  
+}
+
+.special {
+    font-weight: 1000;
+}
+
+#footer {
+    background-color: #343b40;
+}
+
+i {
+    color: white;
+    margin: 20px 50px;
+}
+
+fieldset {
+    overflow: hidden !important;
+}
+
+
+
+ @media (max-width:576px) {
+    i {
+        color: white;
+        margin: 20px 10px;
+    }
+}
+
+@media (max-width:657px) and (min-width:577px) {
+    i {
+        color: white;
+        margin: 20px 24px !important;
+    }
+} 
+
+/* .countdown-container {
+    position: relative;
+    top: auto;
+    bottom: auto;
+} */
+
+/* 
+@media (max-width:996px) and (min-width:) {
+    
+} */
+
+/* .my-btn {
+    margin-right: 5%;
+    
+} */
